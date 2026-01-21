@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - SUPABASE_URL=${SUPABASE_URL}
+        - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+        - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+        - NGROK_BASE_URL=${NGROK_BASE_URL}
+    container_name: projectrag-nextjs
+    ports:
+      - "3000:3000"
+    environment:
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - NGROK_BASE_URL=${NGROK_BASE_URL}
+    volumes:
+      - ./uploads:/app/uploads
+    networks:
+      - n8n-network
+    restart: unless-stopped
+
+networks:
+  n8n-network:
+    external: true
+    name: n8n-network
+
+volumes:
+  uploads:
