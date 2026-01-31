@@ -1,3 +1,13 @@
+Kelompok : Ai Salvation
+List:
+1. Rudy Putra Tantowi
+2. Ichsan Alfarizi Darnela
+3. Dennis Imanuel daeli
+4. Calvin
+5. Justin Glenn fernandito
+6. rodrick Tristan
+
+
 JUDUL PROTOTIPE:
 
 ██████╗░░█████╗░░██████╗░  ██╗░░░██╗███╗░░██╗████████╗██╗░░░██╗██╗░░██╗
@@ -25,10 +35,6 @@ JUDUL PROTOTIPE:
 ██║░░██╗██╔══██║██╔══██║░░░██║░░░██╔══██╗██║░░██║░░░██║░░░
 ╚█████╔╝██║░░██║██║░░██║░░░██║░░░██████╦╝╚█████╔╝░░░██║░░░
 ░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░░╚════╝░░░░╚═╝░░░
-
-================================================================================
-DESKRIPSI SINGKAT:
-================================================================================
 
 Aplikasi web berbasis Next.js yang memungkinkan pengguna untuk:
 - Upload dokumen (PDF, DOCX, TXT, MD) maksimal 10MB
