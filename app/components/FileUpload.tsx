@@ -5,13 +5,18 @@ import { FileRecord } from "@/lib/supabase";
 
 interface FileUploadProps {
   onFileUploaded: (file: FileRecord) => void;
+  onFileDeleted: (fileId: string) => void;
   files: FileRecord[];
 }
 
 const MAX_FILE_SIZE_MB = 10;
 const ACCEPTED_TYPES = [".pdf", ".doc", ".docx", ".txt", ".md"];
 
-export default function FileUpload({ onFileUploaded, files }: FileUploadProps) {
+export default function FileUpload({
+  onFileUploaded,
+  onFileDeleted,
+  files,
+}: FileUploadProps) {
   const [isDragging, setIsDragging] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
   const [error, setError] = useState<string | null>(null);
