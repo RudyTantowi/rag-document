@@ -1,11 +1,11 @@
 Kelompok : Ai Salvation
 List:
-1. Rudy Putra Tantowi
-2. Ichsan Alfarizi Darnela
-3. Dennis Imanuel daeli
-4. Calvin
-5. Justin Glenn fernandito
-6. rodrick Tristan
+1. Rudy Putra Tantowi 223303030435
+2. Ichsan Alfarizi Darnela 223303030433
+3. Dennis Imanuel daeli 223303030434
+4. Calvin 223303030413
+5. Justin Glenn fernandito 223303030623
+6. rodrick Tristan 223303030438
 
 
 JUDUL PROTOTIPE:
